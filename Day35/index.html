@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More On CSS Selectors</title>
+    <style>
+        .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+        p,a,.box,[data-color="primary"]{
+            padding-top: 45px;
+        }
+        /*.box:nth-child(even){
+            background-color: burlywood;
+        }
+        .box:nth-last-child(even){
+            background-color: rgb(135, 171, 222);
+         } */
+        .boxes::before{
+            content:"HI THIS IS VIRAT KOHLI ";
+            color: rgb(248, 27, 204)
+        }
+        .boxes::after{
+            content:"HI THIS IS AB DE VELIERS ";
+            color: rgb(96, 253, 69)
+        }
+        ::selection{
+            background-color: aqua;
+            color: black;
+        }
+        .box::first-letter{
+            color: rgb(246, 42, 42);
+        }
+        input::placeholder{
+            color:blueviolet
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">HEY I AM A FIRST BOX</div>
+        <div class="box">HEY I AM A BOX</div>
+        <div class="box">HEY I AM A BOX</div>
+        <input type="text" placeholder="TYPE YOUR NAME HERE">
+        </div>
+</body>
+</html>
