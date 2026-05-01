@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #414141 ; color: cadetblue; ">
+    <h2>Amazing Images </h2>
+    <div>
+        <ul id="images" style="border: 1px solid black;">
+            <li><img width="200px" id="photoshop"
+                    src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="
+                    alt=""></li>
+            <li><img width="200px" id="japan"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtL44CPaj3lerssJDKrlVwUIJwZnGkqXhAg&s"
+                    alt=""></li>
+            <li><img width="200px" id="river"
+                    src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="
+                    alt=""></li>
+            <li><img width="200px" id="owl"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtL44CPaj3lerssJDKrlVwUIJwZnGkqXhAg&s"
+                    alt=""></li>
+            <li><img width="200px" id="player"
+                    src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="
+                    alt=""></li>
+            <li><a style="color: aqua;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+</body>
+<script>
+    // document.getElementById('owl').onclick = function(){
+    //     alert("Hi This is owl")
+    // }
+
+
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log('Ul is clicked');
+
+    // }, false)
+
+
+
+    // document.getElementById('photoshop').addEventListener('click', function(e){
+    //     console.log('photoshop clicked');
+    //     e.stopPropagation()
+    // },true)
+
+
+
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    //     console.log('google clicked');   
+    // },false)
+
+
+
+    document.querySelector('#images').addEventListener('click',function(e){
+        console.log(e.target.tagName);
+        if(e.target.tagName === 'IMG'){
+            let removeIt=e.target.parentNode
+            removeIt.remove()
+
+            
+            // removeIt.parentNode.removeChild(removeIt)
+        }
+        
+    })
+
+
+</script>
+
+</html>

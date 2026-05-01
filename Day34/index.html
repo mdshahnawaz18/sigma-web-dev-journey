@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <style>
+        .box{
+            border: 4px solid black;
+            display: flow-root;
+        }
+            img{
+                float : right;
+            }
+            .card{
+                    border: 2px solid red;
+            }
+            .card:nth-child(3){
+                background-color: aqua;
+                clear:right;
+            }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="https://thumbs.dreamstime.com/z/handsome-man-rowing-boat-young-casual-man-sitting-boat-rowing-looking-away-background-lake-mountains-103159867.jpg"
+            alt="Boat Image" width="230">
+        <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quisquam, aspernatur non earum odit ipsam, magnam ipsum in nisi perferendis iste dignissimos voluptatibus.
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo explicabo optio illum et doloremque itaque rerum commodi sunt suscipit, mollitia, vitae iure harum maiores id doloribus! Impedit quaerat velit pariatur eveniet inventore esse ex, nulla quae voluptatibus molestiae alias doloremque, ut mollitia culpa eos deleniti. Quia accusamus reprehenderit delectus doloribus quo ducimus laboriosam! Voluptate fugit placeat ipsum voluptatem eveniet enim? Voluptates laborum vero obcaecati itaque, quidem aut. Voluptatum cumque inventore minus quibusdam mollitia et unde dolorem, expedita vel repellat tenetur facilis atque distinctio velit vero iusto quos!
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque maiores porro quis.
+        </div>
+    </div>
+</body>
+</html>

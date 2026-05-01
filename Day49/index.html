@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object</title>
+    <style>
+        .box{
+            background-color: aqua;
+            width: 400px;
+            height: 450px;
+            border: 2px solid black;
+        }
+
+        img{
+            width: 400px;
+            height: 450px;
+            /* object-fit: cover; */
+            object-fit: contain;
+            /* object-fit: fill; */
+            /* object-fit: none; */
+            /* object-fit:scale-down; */
+            /* object-position: 50% 50%; */
+            object-position: 44px 98px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="https://www.livemint.com/lm-img/img/2025/06/29/600x338/Virat_Kohli_and_Rohit_Sharma__1751174780875_1751174781165.jpg" alt="">
+    </div>
+</body>
+</html>

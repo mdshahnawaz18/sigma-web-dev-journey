@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env*
+*.mp3
+*.mp4
+*.m4v
+*.zip
+*.rar
+*.log
+*.exe
