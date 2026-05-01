@@ -1,7 +1,0 @@
-@import "tailwindcss";
-
-@layer components{
-    .myContainer{
-        @apply mx-auto p-1
-    }
-}
