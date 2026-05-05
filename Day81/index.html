@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: #00ff00;
+            font-family: monospace;
+            padding: 20px;
+            font-size: 20px;
+        }
+        .blinking{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="output"></div>
+
+    <script>
+        const messages = [
+            "Initializing Hacking",
+            "Reading Your Files",
+            "Password Files Detected",
+            "Sending all passwords and personal files to server",
+            "Cleaning Up"
+        ];
+
+        const output = document.getElementById("output");
+
+        function getBlinkingDots(){
+            let dots = ""
+            const count = Math.floor(Math.random()*3) + 1;
+
+            for (let i=0;i<count;i++){
+                dots+= "."
+            }
+            return dots;
+        }
+
+        async function showMessages(){
+            for (let msg of messages){
+                const line = document.createElement("div");
+                line.textContent = msg;
+                output.appendChild(line);
+
+            for (let i=0;i < 5; i++){
+                line.textContent = msg +getBlinkingDots();
+                await new Promise(resolve=>
+                    setTimeout(resolve,Math.random().)
+                )
+            }
+            }
+        }
+    </script>
+</body>
+</html>
