@@ -1,0 +1,738 @@
+[{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb694"
+  },
+  "name": "Samsung Galaxy S25+ 5G",
+  "category": "mobile",
+  "price": 74999,
+  "originalPrice": 89999,
+  "discount": "17% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Black",
+    "Silver"
+  ],
+  "storage": [
+    "8GB + 128GB",
+    "12GB + 256GB"
+  ],
+  "description": "Experience flagship performance with Samsung Galaxy S25+ featuring a powerful Snapdragon processor, stunning AMOLED display, and long-lasting battery. Perfect for gaming, multitasking, and professional use.",
+  "specifications": {
+    "RAM": "12GB",
+    "Storage": "256GB",
+    "Battery": "5000mAh",
+    "Camera": "50MP + 12MP + 10MP",
+    "Processor": "Snapdragon 8 Gen 3",
+    "Display": "6.7 inch AMOLED"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb695"
+  },
+  "name": "Apple iPhone 13 (Midnight, 128GB)",
+  "category": "mobile",
+  "price": 52999,
+  "originalPrice": 69999,
+  "discount": "24% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Black",
+    "Blue"
+  ],
+  "storage": [
+    "128GB",
+    "256GB"
+  ],
+  "description": "iPhone 13 delivers lightning-fast performance with A15 Bionic chip, advanced dual camera system, and all-day battery life. A premium Apple experience with smooth iOS performance.",
+  "specifications": {
+    "RAM": "4GB",
+    "Storage": "128GB",
+    "Battery": "3240mAh",
+    "Camera": "12MP Dual Camera",
+    "Processor": "A15 Bionic",
+    "Display": "6.1 inch Super Retina"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb696"
+  },
+  "name": "OnePlus Nord CE 3 Lite 5G",
+  "category": "mobile",
+  "price": 19999,
+  "originalPrice": 24999,
+  "discount": "20% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Green",
+    "Black"
+  ],
+  "storage": [
+    "8GB + 128GB",
+    "12GB + 256GB"
+  ],
+  "description": "Smooth performance meets stylish design with OnePlus Nord CE 3 Lite. Enjoy fast charging, smooth UI, and great camera quality at an affordable price.",
+  "specifications": {
+    "RAM": "8GB",
+    "Storage": "128GB",
+    "Battery": "5000mAh",
+    "Camera": "108MP",
+    "Processor": "Snapdragon 695",
+    "Display": "6.72 inch IPS LCD"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb697"
+  },
+  "name": "Men Slim Fit Casual Shirt",
+  "category": "mens-shirt",
+  "price": 1199,
+  "originalPrice": 1999,
+  "discount": "40% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiqBsHOyy2g42TpLQkpi_lqiAxzp4wH4oPQ&s",
+  "color": [
+    "White",
+    "Blue"
+  ],
+  "storage": [
+    "M",
+    "L"
+  ],
+  "description": "Premium cotton casual shirt designed for comfort and style. Perfect for daily wear and office use with a slim fit modern look.",
+  "specifications": {
+    "Fabric": "Cotton",
+    "Fit": "Slim Fit",
+    "Sleeve": "Full Sleeve",
+    "Pattern": "Solid"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb698"
+  },
+  "name": "Men Checkered Formal Shirt",
+  "category": "mens-shirt",
+  "price": 999,
+  "originalPrice": 1699,
+  "discount": "41% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiqBsHOyy2g42TpLQkpi_lqiAxzp4wH4oPQ&s",
+  "color": [
+    "Black",
+    "Grey"
+  ],
+  "storage": [
+    "L",
+    "XL"
+  ],
+  "description": "Stylish checkered shirt made with breathable fabric. Ideal for office meetings and formal occasions.",
+  "specifications": {
+    "Fabric": "Cotton Blend",
+    "Fit": "Regular Fit",
+    "Sleeve": "Full Sleeve",
+    "Pattern": "Checkered"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb699"
+  },
+  "name": "Kids Printed Cotton T-Shirt",
+  "category": "kids-wear",
+  "price": 499,
+  "originalPrice": 899,
+  "discount": "44% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOdqqD4EbQIQ6NnXGUYPnUiGT27KewY-J-vg&s",
+  "color": [
+    "Yellow",
+    "Blue"
+  ],
+  "storage": [
+    "3-4Y",
+    "5-6Y"
+  ],
+  "description": "Soft cotton kids t-shirt with attractive prints. Comfortable for all-day wear and perfect for casual outings.",
+  "specifications": {
+    "Fabric": "Cotton",
+    "Fit": "Regular",
+    "Pattern": "Printed"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb69a"
+  },
+  "name": "Kids Winter Hoodie",
+  "category": "kids-wear",
+  "price": 799,
+  "originalPrice": 1299,
+  "discount": "38% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOdqqD4EbQIQ6NnXGUYPnUiGT27KewY-J-vg&s",
+  "color": [
+    "Red",
+    "Grey"
+  ],
+  "storage": [
+    "4-5Y",
+    "6-7Y"
+  ],
+  "description": "Warm and cozy hoodie for kids, perfect for winter. Made with soft fleece fabric for maximum comfort.",
+  "specifications": {
+    "Fabric": "Fleece",
+    "Fit": "Regular",
+    "Closure": "Zip"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb69b"
+  },
+  "name": "HP Pavilion i5 12th Gen Laptop",
+  "category": "laptop",
+  "price": 58999,
+  "originalPrice": 72999,
+  "discount": "19% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi07tf9g3tgpg7a0YYY-I7TSldETBIiqTezQ&s",
+  "color": [
+    "Silver",
+    "Black"
+  ],
+  "storage": [
+    "8GB + 512GB",
+    "16GB + 1TB"
+  ],
+  "description": "Powerful HP laptop with Intel i5 processor, fast SSD storage, and smooth multitasking performance. Ideal for students and professionals.",
+  "specifications": {
+    "RAM": "8GB",
+    "Storage": "512GB SSD",
+    "Processor": "Intel i5 12th Gen",
+    "Display": "15.6 inch FHD",
+    "Battery": "6 hours"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb69c"
+  },
+  "name": "Noise Smartwatch Pro",
+  "category": "watches",
+  "price": 2499,
+  "originalPrice": 3999,
+  "discount": "38% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Black",
+    "Blue"
+  ],
+  "storage": [
+    "Standard",
+    "Pro"
+  ],
+  "description": "Smartwatch with fitness tracking, heart rate monitor, and stylish design. Perfect for daily use and fitness tracking.",
+  "specifications": {
+    "Display": "AMOLED",
+    "Battery": "7 days",
+    "Features": "Heart Rate, SpO2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab1856f1a6607a2666bb69d"
+  },
+  "name": "Wireless Bluetooth Earbuds Pro",
+  "category": "earbuds",
+  "price": 1799,
+  "originalPrice": 2999,
+  "discount": "40% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "White",
+    "Black"
+  ],
+  "storage": [
+    "Standard",
+    "Pro"
+  ],
+  "description": "High-quality wireless earbuds with deep bass, long battery life, and fast connectivity. Ideal for music and calls.",
+  "specifications": {
+    "Battery": "6 hours",
+    "Bluetooth": "5.3",
+    "Features": "Noise Cancellation"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb69f"
+  },
+  "name": "Samsung Galaxy S25+",
+  "category": "mobile",
+  "price": 75000,
+  "originalPrice": 90000,
+  "discount": "17% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Black",
+    "Silver"
+  ],
+  "storage": [
+    "12GB + 256GB"
+  ],
+  "description": "Premium Samsung flagship smartphone",
+  "specifications": {
+    "RAM": "12GB",
+    "Storage": "256GB",
+    "Battery": "5000mAh",
+    "Camera": "50MP",
+    "Processor": "Snapdragon 8 Gen"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a0"
+  },
+  "name": "iPhone 13",
+  "category": "mobile",
+  "price": 50000,
+  "originalPrice": 60000,
+  "discount": "16% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Blue",
+    "Black"
+  ],
+  "storage": [
+    "128GB"
+  ],
+  "description": "Apple iPhone with A15 Bionic chip",
+  "specifications": {
+    "RAM": "4GB",
+    "Storage": "128GB",
+    "Battery": "3240mAh",
+    "Camera": "12MP",
+    "Processor": "A15 Bionic"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a1"
+  },
+  "name": "Vivo T1 5G",
+  "category": "mobile",
+  "price": 18000,
+  "originalPrice": 22000,
+  "discount": "18% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Rainbow",
+    "Black"
+  ],
+  "storage": [
+    "6GB + 128GB"
+  ],
+  "description": "Budget 5G smartphone",
+  "specifications": {
+    "RAM": "6GB",
+    "Storage": "128GB",
+    "Battery": "5000mAh",
+    "Camera": "50MP",
+    "Processor": "Snapdragon 695"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a2"
+  },
+  "name": "Men Formal Shirt",
+  "category": "mens-shirt",
+  "price": 1200,
+  "originalPrice": 2000,
+  "discount": "40% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiqBsHOyy2g42TpLQkpi_lqiAxzp4wH4oPQ&s",
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [
+    "White",
+    "Blue"
+  ],
+  "description": "Cotton formal shirt for men",
+  "specifications": {
+    "Fabric": "Cotton",
+    "Fit": "Regular",
+    "Sleeve": "Full Sleeve"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a3"
+  },
+  "name": "Casual Checked Shirt",
+  "category": "mens-shirt",
+  "price": 900,
+  "originalPrice": 1500,
+  "discount": "40% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiqBsHOyy2g42TpLQkpi_lqiAxzp4wH4oPQ&s",
+  "size": [
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [
+    "Red",
+    "Black"
+  ],
+  "description": "Stylish checked casual shirt",
+  "specifications": {
+    "Fabric": "Cotton Blend",
+    "Fit": "Slim",
+    "Sleeve": "Full Sleeve"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a4"
+  },
+  "name": "Kids T-Shirt",
+  "category": "kids-wear",
+  "price": 500,
+  "originalPrice": 800,
+  "discount": "35% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOdqqD4EbQIQ6NnXGUYPnUiGT27KewY-J-vg&s",
+  "size": [
+    "2-3Y",
+    "4-5Y"
+  ],
+  "color": [
+    "Yellow",
+    "Blue"
+  ],
+  "description": "Comfortable kids t-shirt",
+  "specifications": {
+    "Fabric": "Cotton",
+    "Fit": "Regular"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a5"
+  },
+  "name": "Laptop HP i5",
+  "category": "laptop",
+  "price": 55000,
+  "originalPrice": 65000,
+  "discount": "15% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi07tf9g3tgpg7a0YYY-I7TSldETBIiqTezQ&s",
+  "description": "HP laptop for daily use",
+  "specifications": {
+    "RAM": "8GB",
+    "Storage": "512GB SSD",
+    "Processor": "Intel i5",
+    "Display": "15.6 inch"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a6"
+  },
+  "name": "Smart Watch",
+  "category": "watches",
+  "price": 2500,
+  "originalPrice": 4000,
+  "discount": "37% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "description": "Fitness smartwatch",
+  "specifications": {
+    "Display": "AMOLED",
+    "Battery": "7 days",
+    "Features": "Heart Rate Monitor"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a7"
+  },
+  "name": "School Backpack",
+  "category": "bags",
+  "price": 1500,
+  "originalPrice": 2500,
+  "discount": "40% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "description": "Durable school bag",
+  "specifications": {
+    "Material": "Polyester",
+    "Capacity": "25L"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185951a6607a2666bb6a8"
+  },
+  "name": "Wireless Earbuds",
+  "category": "earbuds",
+  "price": 1800,
+  "originalPrice": 3000,
+  "discount": "40% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "description": "Bluetooth wireless earbuds",
+  "specifications": {
+    "Battery": "5 hours",
+    "Bluetooth": "5.2"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6aa"
+  },
+  "name": "Nike Running Shoes Air Zoom",
+  "category": "mens-footwear",
+  "price": 3499,
+  "originalPrice": 5999,
+  "discount": "41% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi2ShIQ8yeWk7BfcEOZYGU0YMvywt_VHv7CA&s",
+  "color": [
+    "Black",
+    "White"
+  ],
+  "storage": [
+    "8",
+    "9"
+  ],
+  "description": "Lightweight running shoes with breathable mesh and comfortable cushioning. Perfect for sports and daily wear.",
+  "specifications": {
+    "Material": "Mesh",
+    "Sole": "Rubber",
+    "Closure": "Lace-Up",
+    "Occasion": "Sports"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6ab"
+  },
+  "name": "Adidas Sneakers Classic",
+  "category": "mens-footwear",
+  "price": 2999,
+  "originalPrice": 4999,
+  "discount": "40% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi2ShIQ8yeWk7BfcEOZYGU0YMvywt_VHv7CA&s",
+  "color": [
+    "White",
+    "Blue"
+  ],
+  "storage": [
+    "7",
+    "8"
+  ],
+  "description": "Stylish sneakers designed for comfort and durability. Ideal for casual wear and daily use.",
+  "specifications": {
+    "Material": "Synthetic",
+    "Sole": "EVA",
+    "Closure": "Lace-Up",
+    "Occasion": "Casual"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6ac"
+  },
+  "name": "Women Heels Party Wear",
+  "category": "womens-footwear",
+  "price": 1599,
+  "originalPrice": 2599,
+  "discount": "38% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi2ShIQ8yeWk7BfcEOZYGU0YMvywt_VHv7CA&s",
+  "color": [
+    "Black",
+    "Beige"
+  ],
+  "storage": [
+    "5",
+    "6"
+  ],
+  "description": "Elegant high heels perfect for parties and occasions. Stylish design with comfortable sole.",
+  "specifications": {
+    "Material": "PU",
+    "Heel Height": "3 inch",
+    "Closure": "Slip-On",
+    "Occasion": "Party"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6ad"
+  },
+  "name": "Women Casual Flats",
+  "category": "womens-footwear",
+  "price": 999,
+  "originalPrice": 1799,
+  "discount": "44% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi2ShIQ8yeWk7BfcEOZYGU0YMvywt_VHv7CA&s",
+  "color": [
+    "Pink",
+    "Grey"
+  ],
+  "storage": [
+    "6",
+    "7"
+  ],
+  "description": "Comfortable daily wear flats with soft sole and stylish look. Ideal for office and casual outings.",
+  "specifications": {
+    "Material": "Synthetic",
+    "Sole": "Rubber",
+    "Closure": "Slip-On"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6ae"
+  },
+  "name": "Lakme Face Foundation Cream",
+  "category": "beauty",
+  "price": 499,
+  "originalPrice": 799,
+  "discount": "37% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Natural",
+    "Ivory"
+  ],
+  "storage": [
+    "20ml",
+    "30ml"
+  ],
+  "description": "Smooth foundation cream that gives even skin tone and natural glow. Perfect for daily makeup.",
+  "specifications": {
+    "Skin Type": "All Skin Types",
+    "Finish": "Matte",
+    "Coverage": "Medium"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6af"
+  },
+  "name": "Maybelline Lipstick Matte",
+  "category": "beauty",
+  "price": 299,
+  "originalPrice": 599,
+  "discount": "50% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Red",
+    "Pink"
+  ],
+  "storage": [
+    "Standard",
+    "Mini"
+  ],
+  "description": "Long-lasting matte lipstick with rich color and smooth finish.",
+  "specifications": {
+    "Finish": "Matte",
+    "Duration": "8 hours",
+    "Skin Type": "All"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6b0"
+  },
+  "name": "Ray-Ban Sunglasses UV Protection",
+  "category": "eyewear",
+  "price": 1999,
+  "originalPrice": 3499,
+  "discount": "42% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Black",
+    "Brown"
+  ],
+  "storage": [
+    "Standard",
+    "Large"
+  ],
+  "description": "Premium sunglasses with UV protection and stylish design. Perfect for outdoor use.",
+  "specifications": {
+    "Frame": "Metal",
+    "Lens": "UV Protected",
+    "Style": "Aviator"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6b1"
+  },
+  "name": "Stylish Eyeglasses Frame",
+  "category": "eyewear",
+  "price": 999,
+  "originalPrice": 1999,
+  "discount": "50% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Black",
+    "Blue"
+  ],
+  "storage": [
+    "Medium",
+    "Large"
+  ],
+  "description": "Trendy eyeglasses frame for daily use with lightweight material.",
+  "specifications": {
+    "Frame": "Plastic",
+    "Weight": "Lightweight",
+    "Style": "Full Rim"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6b2"
+  },
+  "name": "Leather Belt Premium",
+  "category": "belts-wallets",
+  "price": 799,
+  "originalPrice": 1499,
+  "discount": "46% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Black",
+    "Brown"
+  ],
+  "storage": [
+    "32",
+    "34"
+  ],
+  "description": "High-quality leather belt with durable buckle. Ideal for formal wear.",
+  "specifications": {
+    "Material": "Leather",
+    "Closure": "Buckle",
+    "Occasion": "Formal"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ab185be1a6607a2666bb6b3"
+  },
+  "name": "Men Wallet Leather Slim",
+  "category": "belts-wallets",
+  "price": 699,
+  "originalPrice": 1299,
+  "discount": "46% OFF",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOI7htgw684CXICaj1G-if16lhgJPMXIG5A&s",
+  "color": [
+    "Brown",
+    "Black"
+  ],
+  "storage": [
+    "Standard",
+    "Premium"
+  ],
+  "description": "Slim leather wallet with multiple compartments for cards and cash.",
+  "specifications": {
+    "Material": "Leather",
+    "Compartments": "6 Card Slots",
+    "Type": "Bi-Fold"
+  }
+}]

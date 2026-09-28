@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM PRACTICE</title>
+</head>
+
+<body style="background-color: #212121 ; color: #fff;">
+        <ul class="language">
+            <li>Javascript</li>
+        </ul>
+
+    <script>
+        function addNum(add){
+            const li = document.createElement('li')
+            li.innerHTML = `${add}`
+            document.querySelector('.language').appendChild(li)
+        }
+        addNum("python")
+        addNum("c++")
+        
+        function opNum(langname){
+            const li = document.createElement('li');
+            const tn = document.createTextNode(langname);
+            li.appendChild(tn);
+            document.querySelector('.language').appendChild(li)
+        }
+        opNum("kotlin")
+
+        const secondLang = document.querySelector("li:nth-child(2)")
+        // secondLang.innerHTML = "coco"
+        const newLi = document.createElement('li')
+        newLi.textContent = "mojo"
+        secondLang.replaceWith(newLi)
+
+        const firstLang = document.querySelector("li:first-Child")
+        firstLang.outerHTML = '<li>Flutter</li>'
+
+        const lastLang = document.querySelector("li:last-Child")
+        lastLang.remove()
+
+
+    </script>
+</body>
+
+</html>
