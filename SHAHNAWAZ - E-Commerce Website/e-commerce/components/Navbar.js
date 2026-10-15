@@ -2,22 +2,51 @@
 
 import Link from "next/link"
 import { useState, useEffect } from "react"
-import { useRouter } from "next/navigation"
+import { useRouter , usePathname} from "next/navigation"
 
 const Navbar = () => {
 
     const [search, setSearch] = useState("")
     const [allProducts, setAllProducts] = useState([])
     const [filtered, setFiltered] = useState([])
+    const [user, setUser] = useState(null)
+    const [authLoading, setAuthLoading] = useState(true)
 
     const router = useRouter()
+    const pathname = usePathname()
+
+    useEffect(() => {
+        async function checkUser() {
+            try {
+                const res = await fetch("/api/auth/me" ,{
+                    cache : "no-store"
+                })
+                const data = await res.json()
+
+                setUser(res.ok ? data.user : null)
+            } catch(error) {
+                console.error("Error fetching user:", error)
+
+                setUser(null)
+            } finally {
+                setAuthLoading(false)
+            }
+        }
+        checkUser()
+    }, [pathname])
+
 
     // 🔥 Fetch products
     useEffect(() => {
         const fetchData = async () => {
-            const res = await fetch("/api/products")
-            const data = await res.json()
-            setAllProducts(data)
+            try {
+
+                const res = await fetch("/api/products")
+                const data = await res.json()
+                setAllProducts(data)
+            } catch (error) {
+                console.error("products fetch error", error)
+            }
         }
         fetchData()
     }, [])
@@ -38,6 +67,32 @@ const Navbar = () => {
 
     }, [search, allProducts])
 
+    const HandleSearch = (e) => {
+        e.preventDefault()
+
+        if (!search.trim()) {
+            return
+        }
+
+        router.push(`/search?q=${encodeURIComponent(search)}`)
+        setFiltered([])
+
+    }
+
+    const handleLogout = async () => {
+        try {
+            const res = await fetch("/api/auth/logout", { method: "POST" })
+            if (!res.ok) {
+                throw new Error("Logout Failed")
+            }
+            setUser(null)
+            router.replace("/")
+            router.refresh()
+        } catch (error) {
+            console.error("Logout Error : ", error)
+        }
+    }
+
     return (
         <nav className="sticky top-0 w-full bg-[#f1f5f9]/80 backdrop-blur-3xl border-b border-slate-200 z-50">
 
@@ -54,13 +109,18 @@ const Navbar = () => {
                 {/* 🔍 SEARCH */}
                 <div className="relative w-[40%]">
 
-                    <input
-                        value={search}
-                        onChange={(e) => setSearch(e.target.value)}
-                        placeholder="Search for products..."
-                        className="w-full px-4 py-2 border rounded-md bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
-                    />
+                    <form onSubmit={HandleSearch}>
+                        <input
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
+                            placeholder="Search for products..."
+                            className="w-full px-4 py-2 border rounded-md bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        />
 
+                        <button type="submit" className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white px-3 py-1 rounded-md hover:bg-blue-700 transition">
+                            Search
+                        </button>
+                    </form>
                     <div onClick={() => { setSearch("") }} className="cursor-pointer absolute right-3 top-2 text-blue-700 font-semibold">X</div>
 
                     {/* 🔥 DROPDOWN */}
@@ -95,13 +155,13 @@ const Navbar = () => {
 
                 {/* 🟡 RIGHT ICONS */}
                 <div className="flex items-center gap-6">
+                    {!authLoading && (user ? (<Link href="/profile" className="flex flex-col items-center cursor-pointer text-sm">
+                        <span>👤</span>
+                        <span>Profile</span>
+                    </Link>) : (<Link href="/login" className="flex flex-col items-center cursor-pointer text-sm">
+                        <span>Login</span>
+                    </Link>))}
 
-                    <Link href="/profile">
-                        <div className="flex flex-col items-center cursor-pointer text-sm">
-                            <span>👤</span>
-                            <span>Profile</span>
-                        </div>
-                    </Link>
 
                     <Link href="/">
                         <div className="flex flex-col items-center cursor-pointer text-sm">
@@ -116,6 +176,8 @@ const Navbar = () => {
                             <span>Cart</span>
                         </div>
                     </Link>
+
+                    {user && (<button type="button" onClick={handleLogout} className="text-sm text-red-600 hover:text-red-800">Logout</button>)}
 
                 </div>
 

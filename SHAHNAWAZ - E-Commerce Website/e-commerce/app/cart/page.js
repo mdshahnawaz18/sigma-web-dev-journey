@@ -8,15 +8,15 @@ import { useRouter } from "next/navigation"
 const CartPage = () => {
   const router = useRouter()
 
-    const {
-        cart,
-        addToCart,
-        removeOneCart,
-        setBuyNowItem,
-        removeAll,
-        totalPrice
-    } = useContext(CartContext)
-    console.log("cart",cart)
+  const {
+    cart,
+    addToCart,
+    removeOneCart,
+    setBuyNowItem,
+    removeAll,
+    totalPrice
+  } = useContext(CartContext)
+  console.log("cart", cart)
 
   return (
     <div className="min-h-screen bg-gray-100 pt-24 px-4 pb-10">
@@ -119,7 +119,7 @@ const CartPage = () => {
             <div className="flex justify-between mb-4">
               <span>Delivery Charges</span>
               <span className="text-green-600">
-{totalPrice > 200 ? "Free" : "+ ₹40"}</span>
+                {totalPrice > 200 ? "Free" : "+ ₹40"}</span>
             </div>
 
             <hr className="mb-4" />
@@ -129,10 +129,11 @@ const CartPage = () => {
               <span>₹{totalPrice > 200 ? totalPrice - 100 : totalPrice - 100 + 40}</span>
             </div>
 
-            <button onClick={()=>{
+            <button onClick={() => {
               setBuyNowItem(null)
               localStorage.removeItem("buyNow")
-              router.push("/checkout")}} className="w-full bg-orange-500 text-white py-2 rounded font-semibold hover:bg-orange-600 transition">
+              router.push("/checkout")
+            }} className="w-full bg-orange-500 text-white py-2 rounded font-semibold hover:bg-orange-600 transition">
               Place Order
             </button>
 
